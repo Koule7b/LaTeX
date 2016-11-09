@@ -2,19 +2,24 @@
 \usepackage[utf8]{inputenc}
 \usepackage{color}
 \usepackage{colortbl}
+\usepackage{graphics}
 \begin{document}
 \catcode`\-=12
 \section{Tabulka}
-\begin{tabular}{|l|r|r|}
-\hline \hline
+\begin{tabular}{|>{\columncolor{green}}l|r|r|}
+\hline
 \rowcolor{yellow}
-Mena & 8.11 & 9.11 \\
+\rotatebox {270}{Mena} & 8.11 & 9.11 \\
 \hline \hline
 Dolar & 24.47 & 24.42 \\
 \cline {2-3}
 Euro & \multicolumn{2}{c|}{27.02} \\
 \cline {2-3}
 Arkturiansky tolar & \multicolumn{2}{c|}{12}\\
+\hline
+\hline
+\hline
+\hline
 \hline
 \end{tabular}
 \end{document}
