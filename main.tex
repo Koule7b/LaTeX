@@ -1,5 +1,20 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
+\usepackage{color}
+\usepackage{colortbl}
 \begin{document}
-(Type your content here.)
+\catcode`\-=12
+\section{Tabulka}
+\begin{tabular}{|l|r|r|}
+\hline \hline
+\rowcolor{yellow}
+Mena & 8.11 & 9.11 \\
+\hline \hline
+Dolar & 24.47 & 24.42 \\
+\cline {2-3}
+Euro & \multicolumn{2}{c|}{27.02} \\
+\cline {2-3}
+Arkturiansky tolar & \multicolumn{2}{c|}{12}\\
+\hline
+\end{tabular}
 \end{document}
