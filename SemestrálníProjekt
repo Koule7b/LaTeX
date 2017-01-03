@@ -1,1 +1,39 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{color}
+\usepackage{colortbl}
+\usepackage{graphics}
+\begin{document}
+\title{Setkání anonymních trenérů pokémonů}
+\author{Štěpán Mudra}
+\begin{center}
+\Huge \textbf{Setkání anonymních trenérů pokémonů}
+\end{center}
+\small
+\includegraphics{Bez_n_zvu.png}
+
+Setkání probíhají následujícím způsobem:
+\begin{itemize}
+\item Vybereme nedobrovolé vstupné.
+\item Všichni si určíme přezdívku.
+\item Řekneme si co máme na pokémonech nejraději.
+\item Následuje chvilka pro pokémoní souboje.
+\item Vybereme nedobrovolné výstupné.
+\end{itemize}
+
+V tabulce naleznete instrukce o místě a čase konání.
+
+\begin{tabular}{|>{\columncolor{blue}}l|r|r|r|}
+
+\hline
+Město & Adresa & Datum & Čas \\
+\hline
+České Budějovice & Strakonická 15 & 4. ledna 2017 & 10:00 \\
+\hline
+Plzeň & Strakonická 19 & 9. ledna 2017 & 17:00 \\
+\hline
+Praha & Strakonická 17 & 5. ledna 2017 & 19:00 \\
+\hline
+\end{tabular}
+\end{document}
 
